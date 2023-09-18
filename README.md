@@ -52,6 +52,7 @@ WIFI_PASSWORD = '你的热点密码'
 保存并启动 `boot.py`。
 
 此时，ESP32设备将连接到你的热点，并分配一个IP地址。
+![C286KTP%SVSECX7 S~NY(05](https://github.com/XWBSZ/esp32car-wifi/assets/128375805/106ce4c3-1293-492c-94d2-ff1628ed9aca)
 
 接下来，打开 `esp32-wifi-car.py` 文件，并将以下部分的IP地址修改为你当前的IP地址：
 
@@ -61,6 +62,7 @@ SERVER_IP = '你的IP地址'
 ```
 
 保存并运行 `esp32-wifi-car.py`，将会弹出一个GUI窗口。
+<img width="612" alt="微信图片_20230730213529" src="https://github.com/XWBSZ/esp32car-wifi/assets/128375805/5171e91f-ce97-4297-9bc5-63c1a2ebc2b4">
 
 最后，测试你的小车是否能够正常运行。
 
